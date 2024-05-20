@@ -50,23 +50,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/devider_header" />
 
-    <View
+    <ImageButton
         android:id="@+id/rectangle_poolShape"
         android:layout_width="141dp"
         android:layout_height="59dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/rectangle"
+        android:src="@drawable/rectangle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_poolShape" />
 
-    <View
+    <ImageButton
         android:id="@+id/circle_poolShape"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="80dp"
         android:background="@drawable/circle"
+        android:src="@drawable/circle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/devider_header" />
 
