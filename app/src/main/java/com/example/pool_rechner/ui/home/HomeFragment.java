@@ -36,6 +36,11 @@ public class HomeFragment extends Fragment {
                 NavHostFragment.findNavController(HomeFragment.this)
                         .navigate(R.id.action_navigation_home_to_navigation_rectangle)
         );
+
+        binding.circlePoolShape.setOnClickListener(v ->
+                NavHostFragment.findNavController(HomeFragment.this)
+                        .navigate(R.id.action_navigation_home_to_navigation_circle)
+        );
     }
 
     @Override

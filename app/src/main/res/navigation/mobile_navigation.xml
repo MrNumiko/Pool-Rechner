@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_navigation_home_to_navigation_rectangle"
             app:destination="@id/navigation_rectangle" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_circle"
+            app:destination="@id/navigation_circle" />
     </fragment>
 
     <fragment
