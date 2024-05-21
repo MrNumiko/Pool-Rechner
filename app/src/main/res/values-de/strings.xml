@@ -11,6 +11,7 @@
     <string name="dimension_input_for_spherical_pool">Dimension input for spherical pool</string>
     <string name="enter_dimensions">Enter dimensions</string>
     <string name="length_in_meters">Length in meters</string>
+    <string name="radius_in_meters">Radius in meters</string>
     <string name="width_in_meters">Width in meters</string>
     <string name="height_in_meters">Height in meters</string>
     <string name="function_of_the_app">Function of the App:</string>
@@ -23,4 +24,15 @@
     <string name="_2023_hmnj_software_solutions">2023 © HMNJ Software Solutions</string>
     <string name="all_rights_reserved">All rights reserved.</string>
     <string name="dimension_input_for_rectangular_pool">Dimension input for rectangular pool</string>
+    <string name="your_pool_needs_the_following_amount_of_water_in_cbm">Your pool needs the following amount of water (in cbm):</string>
+    <string name="height">Height:</string>
+    <string name="width">Width:</string>
+    <string name="length">Length:</string>
+    <string name="radius">Radius:</string>
+    <string name="you_have_chosen_a_rectangular_pool_shape">You have choosen a rectangular pool shape:</string>
+    <string name="you_have_chosen_a_spherical_pool_shape">You have chosen a spherical pool shape:</string>
+    <string name="wateramount_in_cbm_rectangle">Wateramount in cbm = Length * Width * Height</string>
+    <string name="wateramount_in_cbm_circle">Wateramount in cbm = &#960; * r^2 * Height</string>
+    <string name="rectangular_pool">Rectangular pool</string>
+    <string name="spherical_pool">Spherical pool</string>
 </resources>
