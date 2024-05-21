@@ -13,7 +13,7 @@
         android:layout_marginStart="16dp"
         android:text="Welcome to"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/txt_product"
+        app:layout_constraintBottom_toTopOf="@+id/txt_rectangleHeader"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,10 +27,10 @@
         android:background="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_product" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_rectangleHeader" />
 
     <TextView
-        android:id="@+id/txt_product"
+        android:id="@+id/txt_rectangleHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -50,7 +50,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/devider_header" />
 
-    <ImageButton
+    <Button
         android:id="@+id/rectangle_poolShape"
         android:layout_width="141dp"
         android:layout_height="59dp"
@@ -61,7 +61,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_poolShape" />
 
-    <ImageButton
+    <Button
         android:id="@+id/circle_poolShape"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -92,26 +92,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/circle_poolShape" />
 
-    <TextView
-        android:id="@+id/txt_decriptionHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:text="Function of the App:"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_poolShapeRectangle" />
-
-    <TextView
-        android:id="@+id/txt_decriptionBody"
-        android:layout_width="224dp"
-        android:layout_height="88dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="This app calculates the required amount of water depending on the pool shape and the dimensions entered. The result is displayed in cubic meters."
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_decriptionHeader" />
 
     <View
         android:id="@+id/devider_footer"
@@ -119,7 +99,7 @@
         android:layout_height="1dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="204dp"
+        android:layout_marginBottom="236dp"
         android:background="@android:color/darker_gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -156,10 +136,23 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_copyright" />
 
     <Button
-        android:id="@+id/btn_aboutUs"
+        android:id="@+id/btn_help"
         android:layout_width="94dp"
         android:layout_height="32dp"
         android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:text="Help"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_rightsReserved" />
+
+    <Button
+        android:id="@+id/btn_aboutUs"
+        android:layout_width="94dp"
+        android:layout_height="32dp"
         android:background="@android:color/transparent"
         android:text="About us"
         android:textAlignment="viewStart"
@@ -167,7 +160,7 @@
         android:textColor="@color/black"
         android:textSize="8sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_rightsReserved" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_help" />
 
     <Button
         android:id="@+id/btn_imprint"

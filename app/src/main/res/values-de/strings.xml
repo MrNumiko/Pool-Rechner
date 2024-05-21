@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pool-Rechner</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="this_app_calculates_the_required_amount_of_water_depending_on_the_pool_shape_and_the_dimensions_entered_the_result_is_displayed_in_cubic_meters">Test</string>
+</resources>
