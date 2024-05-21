@@ -10,7 +10,9 @@
     <string name="this_app_calculates_the_required_amount_of_water_depending_on_the_pool_shape_and_the_dimensions_entered_the_result_is_displayed_in_cubic_meters">Test</string>
     <string name="dimension_input_for_spherical_pool">Dimension input for spherical pool</string>
     <string name="enter_dimensions">Enter dimensions</string>
-    <string name="lenght_in_meters">Lenght in meters</string>
+    <string name="length_in_meters">Length in meters</string>
+    <string name="width_in_meters">Width in meters</string>
+    <string name="height_in_meters">Height in meters</string>
     <string name="function_of_the_app">Function of the App:</string>
     <string name="choose_your_pool_shape">Choose your pool shape</string>
     <string name="welcome_to">Welcome to</string>

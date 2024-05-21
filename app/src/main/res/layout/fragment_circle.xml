@@ -47,7 +47,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="230dp"
             android:layout_height="match_parent"
-            android:hint="@string/lenght_in_meters" />
+            android:hint="@string/length_in_meters" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
