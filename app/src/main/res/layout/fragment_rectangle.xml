@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:text="@string/enter_dimensions"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -151,11 +151,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:text="@string/your_pool_needs_the_following_amount_of_water_in_cbm"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nb_heightRectangle" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_calcRectangle" />
 
     <TextView
         android:id="@+id/input_sizeRectangle"
@@ -166,5 +166,15 @@
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_sizeRectangle" />
+
+    <Button
+        android:id="@+id/btn_calcRectangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/calculate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nb_heightRectangle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
