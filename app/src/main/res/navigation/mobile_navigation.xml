@@ -11,19 +11,37 @@
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_navigation_home_to_navigation_dashboard"
-            app:destination="@id/navigation_dashboard" />
+            android:id="@+id/action_navigation_home_to_navigation_rectangle"
+            app:destination="@id/navigation_rectangle" />
     </fragment>
+
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="com.example.pool_rechner.ui.help.HelpFragment"
+        android:label="@string/title_help"
+        tools:layout="@layout/fragment_help" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.pool_rechner.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="@string/title_about_us"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.pool_rechner.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_imprint"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_rectangle"
+        android:name="com.example.pool_rechner.ui.rectangle.RectangleFragment"
+        android:label="@string/title_rectangle"
+        tools:layout="@layout/fragment_rectangle" />
+
+    <fragment
+        android:id="@+id/navigation_circle"
+        android:name="com.example.pool_rechner.ui.circle.CircleFragment"
+        android:label="@string/title_circle"
+        tools:layout="@layout/fragment_circle" />
 </navigation>

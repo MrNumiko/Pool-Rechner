@@ -7,25 +7,31 @@
     tools:context=".ui.help.HelpFragment">
 
     <TextView
-        android:id="@+id/txt_decriptionHeader"
+        android:id="@+id/txt_footerCompany"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="@string/function_of_the_app"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/hmnj_software_solutions"
+        android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/txt_decriptionBody"
-        android:layout_width="224dp"
-        android:layout_height="88dp"
+        android:id="@+id/txt_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/this_app_calculates_the_required_amount_of_water_depending_on_the_pool_shape_and_the_dimensions_entered_the_result_is_displayed_in_cubic_meters"
+        android:text="@string/_2023_hmnj_software_solutions"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_decriptionHeader" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_footerCompany" />
+
+    <TextView
+        android:id="@+id/txt_rightsReserved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/all_rights_reserved"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_copyright" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

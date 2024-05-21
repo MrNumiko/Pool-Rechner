@@ -32,9 +32,9 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.btnHelp.setOnClickListener(v ->
+        binding.rectanglePoolShape.setOnClickListener(v ->
                 NavHostFragment.findNavController(HomeFragment.this)
-                        .navigate(R.id.action_navigation_home_to_navigation_dashboard)
+                        .navigate(R.id.action_navigation_home_to_navigation_rectangle)
         );
     }
 

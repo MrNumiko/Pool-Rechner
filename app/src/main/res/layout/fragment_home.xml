@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Welcome to"
+        android:text="@string/welcome_to"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/txt_rectangleHeader"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
-        android:text="Calculate pool water"
+        android:text="@string/calculate_pool_water"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_welcome" />
 
@@ -45,134 +45,76 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
-        android:text="Choose your pool shape"
+        android:text="@string/choose_your_pool_shape"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/devider_header" />
 
     <Button
         android:id="@+id/rectangle_poolShape"
-        android:layout_width="141dp"
-        android:layout_height="59dp"
+        android:layout_width="175dp"
+        android:layout_height="100dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginBottom="127dp"
         android:background="@drawable/rectangle"
         android:src="@drawable/rectangle"
+        app:layout_constraintBottom_toTopOf="@+id/circle_poolShape"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_poolShape" />
 
     <Button
         android:id="@+id/circle_poolShape"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="80dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="52dp"
         android:background="@drawable/circle"
         android:src="@drawable/circle"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/devider_header" />
+        app:layout_constraintBottom_toTopOf="@+id/devider_footer"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
     <TextView
         android:id="@+id/txt_poolShapeRectangle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="8dp"
-        android:text="Rectangle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_poolShape" />
+        android:layout_width="96dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="223dp"
+        android:text="@string/rectangle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_poolShapeCircle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rectangle_poolShape"
+        app:layout_constraintTop_toBottomOf="@+id/devider_header" />
 
     <TextView
         android:id="@+id/txt_poolShapeCircle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="80dp"
-        android:text="Spherical"
+        android:layout_width="86dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="113dp"
+        android:text="@string/spherical"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/devider_footer"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/circle_poolShape" />
-
+        app:layout_constraintStart_toEndOf="@+id/circle_poolShape" />
 
     <View
         android:id="@+id/devider_footer"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="236dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="56dp"
         android:background="@android:color/darker_gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/txt_footerCompany"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="HMNJ Software Solutions"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/devider_footer" />
-
-    <TextView
-        android:id="@+id/txt_copyright"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="2023 © HMNJ Software Solutions"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_footerCompany" />
-
-    <TextView
-        android:id="@+id/txt_rightsReserved"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="All rights reserved."
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_copyright" />
-
-    <Button
-        android:id="@+id/btn_help"
-        android:layout_width="94dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/transparent"
-        android:text="Help"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="8sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_rightsReserved" />
-
-    <Button
-        android:id="@+id/btn_aboutUs"
-        android:layout_width="94dp"
-        android:layout_height="32dp"
-        android:background="@android:color/transparent"
-        android:text="About us"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="8sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_help" />
-
-    <Button
-        android:id="@+id/btn_imprint"
-        android:layout_width="94dp"
-        android:layout_height="32dp"
-        android:background="@android:color/transparent"
-        android:text="Imprint"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="8sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_aboutUs" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

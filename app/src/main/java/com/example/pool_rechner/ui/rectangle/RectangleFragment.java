@@ -1,4 +1,4 @@
-package com.example.pool_rechner.ui.help;
+package com.example.pool_rechner.ui.rectangle;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,17 +9,17 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.pool_rechner.databinding.FragmentHelpBinding;
+import com.example.pool_rechner.databinding.FragmentRectangleBinding;
 
-public class HelpFragment extends Fragment {
-    private FragmentHelpBinding binding;
+public class RectangleFragment extends Fragment {
+    private FragmentRectangleBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HelpViewModel HelpViewModel =
-                new ViewModelProvider(this).get(HelpViewModel.class);
+        RectangleViewModel RectangleViewModel =
+                new ViewModelProvider(this).get(RectangleViewModel.class);
 
-        binding = FragmentHelpBinding.inflate(inflater, container, false);
+        binding = FragmentRectangleBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         return root;

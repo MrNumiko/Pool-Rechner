@@ -16,20 +16,20 @@
         android:background="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_rectangleHeader" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_circleHeader" />
 
     <TextView
-        android:id="@+id/txt_rectangleHeader"
+        android:id="@+id/txt_circleHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="@string/dimension_input_for_rectangular_pool"
+        android:text="@string/dimension_input_for_spherical_pool"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txt_dimensionInputRectangle"
+        android:id="@+id/txt_dimensionInputCircle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

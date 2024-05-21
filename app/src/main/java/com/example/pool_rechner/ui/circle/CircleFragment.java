@@ -1,4 +1,4 @@
-package com.example.pool_rechner.ui.help;
+package com.example.pool_rechner.ui.circle;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,17 +9,17 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.pool_rechner.databinding.FragmentHelpBinding;
+import com.example.pool_rechner.databinding.FragmentCircleBinding;
 
-public class HelpFragment extends Fragment {
-    private FragmentHelpBinding binding;
+public class CircleFragment extends Fragment {
+    private FragmentCircleBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HelpViewModel HelpViewModel =
-                new ViewModelProvider(this).get(HelpViewModel.class);
+        CircleViewModel CircleViewModel =
+                new ViewModelProvider(this).get(CircleViewModel.class);
 
-        binding = FragmentHelpBinding.inflate(inflater, container, false);
+        binding = FragmentCircleBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         return root;

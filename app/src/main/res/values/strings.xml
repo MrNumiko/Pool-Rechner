@@ -1,7 +1,23 @@
 <resources>
     <string name="app_name">Pool-Rechner</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_help">Help</string>
+    <string name="title_about_us">About us</string>
+    <string name="title_imprint">Imprint</string>
+    <string name="title_rectangle">Rectangle</string>
+    <string name="title_circle">Circle</string>
     <string name="this_app_calculates_the_required_amount_of_water_depending_on_the_pool_shape_and_the_dimensions_entered_the_result_is_displayed_in_cubic_meters">This app calculates the required amount of water depending on the pool shape and the dimensions entered. The result is displayed in cubic meters.</string>
+    <string name="dimension_input_for_spherical_pool">Dimension input for spherical pool</string>
+    <string name="enter_dimensions">Enter dimensions</string>
+    <string name="lenght_in_meters">Lenght in meters</string>
+    <string name="function_of_the_app">Function of the App:</string>
+    <string name="choose_your_pool_shape">Choose your pool shape</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="calculate_pool_water">Calculate pool water</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="spherical">Spherical</string>
+    <string name="hmnj_software_solutions">HMNJ Software Solutions</string>
+    <string name="_2023_hmnj_software_solutions">2023 © HMNJ Software Solutions</string>
+    <string name="all_rights_reserved">All rights reserved.</string>
+    <string name="dimension_input_for_rectangular_pool">Dimension input for rectangular pool</string>
 </resources>
