@@ -35,4 +35,21 @@
     <string name="rectangular_pool">Rectangular pool</string>
     <string name="spherical_pool">Spherical pool</string>
     <string name="calculate">Calculate</string>
+    <string name="imprint_head">Imprint of the HMNJ Software Solutions GmbH</string>
+    <string name="imprint_company">HMNJ Software Solutions GmbH</string>
+    <string name="imprint_street">Erna-Scheffler-Straße 1A</string>
+    <string name="imprint_city">51103 Cologne-Kalk</string>
+    <string name="imprint_country">Germany</string>
+    <string name="imprint_people_head">Represented by: </string>
+    <string name="imprint_hinteman">Hendrik Jan Hinteman</string>
+    <string name="imprint_schneider">Marcel Maurice Schneider</string>\
+    <string name="imprint_strehlau">Nils Strehlau</string>
+    <string name="imprint_budde">Jan-Hendrik Budde</string>
+    <string name="imprint_tax_head">Sales tax identification number after §27a value added tax act</string>
+    <string name="imprint_sales_tax_identification_number">DE2934128056</string>
+    <string name="imprint_contact">Contact</string>
+    <string name="imprint_phone">Phone: +49221 81843</string>
+    <string name="imprint_fax">Fax: +49221 81833</string>
+    <string name="imprint_email">Email: support@hmnj.de</string>
+    <string name="imprint_web">Web: <a href="https://www.google.de">Google</a></string>
 </resources>

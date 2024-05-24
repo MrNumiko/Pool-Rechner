@@ -12,7 +12,7 @@
         android:title="@string/title_about_us" />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_imprint"
         android:icon="@drawable/finger_print_icon"
         android:title="@string/title_imprint" />
 

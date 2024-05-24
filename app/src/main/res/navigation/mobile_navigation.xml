@@ -31,10 +31,10 @@
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.pool_rechner.ui.notifications.NotificationsFragment"
+        android:id="@+id/navigation_imprint"
+        android:name="com.example.pool_rechner.ui.imprint.ImprintFragment"
         android:label="@string/title_imprint"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_imprint" />
 
     <fragment
         android:id="@+id/navigation_rectangle"
