@@ -23,7 +23,7 @@
         android:layout_height="88dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="@string/this_app_calculates_the_required_amount_of_water_depending_on_the_pool_shape_and_the_dimensions_entered_the_result_is_displayed_in_cubic_meters"
+        android:text="@string/help_body"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_decriptionHeader" />
 

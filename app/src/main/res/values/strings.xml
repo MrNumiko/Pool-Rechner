@@ -1,13 +1,12 @@
 <resources>
-    <string name="app_name">Pool-Rechner</string>
+    <string name="app_name">Pool-Calculator</string>
     <string name="title_home">Home</string>
     <string name="title_help">Help</string>
     <string name="title_about_us">About us</string>
     <string name="title_imprint">Imprint</string>
     <string name="title_rectangle">Rectangle</string>
     <string name="title_circle">Circle</string>
-    <string name="this_app_calculates_the_required_amount_of_water_depending_on_the_pool_shape_and_the_dimensions_entered_the_result_is_displayed_in_cubic_meters">This app calculates the required amount of water depending on the pool shape and the dimensions entered. The result is displayed in cubic meters.</string>
-    <string name="dimension_input_for_spherical_pool">Dimension input for spherical pool</string>
+    <string name="help_body">This app calculates the required amount of water depending on the pool shape and the dimensions entered. The result is displayed in cubic meters.</string>
     <string name="enter_dimensions">Enter dimensions</string>
     <string name="length_in_meters">Length in meters</string>
     <string name="radius_in_meters">Radius in meters</string>
@@ -19,17 +18,15 @@
     <string name="calculate_pool_water">Calculate pool water</string>
     <string name="rectangle">Rectangle</string>
     <string name="spherical">Spherical</string>
-    <string name="hmnj_software_solutions">HMNJ Software Solutions</string>
-    <string name="_2023_hmnj_software_solutions">2023 © HMNJ Software Solutions</string>
-    <string name="all_rights_reserved">All rights reserved.</string>
     <string name="dimension_input_for_rectangular_pool">Dimension input for rectangular pool</string>
-    <string name="your_pool_needs_the_following_amount_of_water_in_cbm">Your pool needs the following amount of water (in cbm):</string>
+    <string name="dimension_input_for_spherical_pool">Dimension input for spherical pool</string>
+    <string name="result_pool_water">Your pool needs the following amount of water (in cbm):</string>
     <string name="height">Height:</string>
     <string name="width">Width:</string>
     <string name="length">Length:</string>
     <string name="radius">Radius:</string>
-    <string name="you_have_chosen_a_rectangular_pool_shape">You have chosen a rectangular pool shape:</string>
-    <string name="you_have_chosen_a_spherical_pool_shape">You have chosen a spherical pool shape:</string>
+    <string name="choice_rectangular_pool_shape">You have chosen a rectangular pool shape:</string>
+    <string name="choice_spherical_pool_shape">You have chosen a spherical pool shape:</string>
     <string name="wateramount_in_cbm_rectangle">Wateramount in cbm = Length * Width * Height</string>
     <string name="wateramount_in_cbm_circle">Wateramount in cbm = &#960; * r^2 * Height</string>
     <string name="rectangular_pool">Rectangular pool</string>
@@ -45,7 +42,7 @@
     <string name="imprint_schneider">Marcel Maurice Schneider</string>\
     <string name="imprint_strehlau">Nils Strehlau</string>
     <string name="imprint_budde">Jan-Hendrik Budde</string>
-    <string name="imprint_tax_head">Sales tax identification number after §27a value added tax act</string>
+    <string name="imprint_tax_head">Sales tax identification number to section 27a of the sales tax act</string>
     <string name="imprint_sales_tax_identification_number">DE2934128056</string>
     <string name="imprint_contact">Contact</string>
     <string name="imprint_phone">Phone: +49221 81843</string>
