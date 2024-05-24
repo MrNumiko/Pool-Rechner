@@ -25,10 +25,10 @@
         tools:layout="@layout/fragment_help" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.pool_rechner.ui.dashboard.DashboardFragment"
+        android:id="@+id/navigation_aboutus"
+        android:name="com.example.pool_rechner.ui.aboutus.AboutUsFragment"
         android:label="@string/title_about_us"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_aboutus" />
 
     <fragment
         android:id="@+id/navigation_imprint"

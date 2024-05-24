@@ -42,4 +42,10 @@ public class ImprintFragment extends Fragment {
         // method to change color of link
         linkTextView.setLinkTextColor(Color.BLUE);
     }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
+    }
 }

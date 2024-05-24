@@ -12,7 +12,7 @@
         android:title="@string/title_help" />
 
     <item
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_aboutus"
         android:icon="@drawable/community_man_icon"
         android:title="@string/title_about_us" />
 
