@@ -15,8 +15,6 @@ import androidx.lifecycle.ViewModelProvider;
 import com.example.pool_rechner.R;
 import com.example.pool_rechner.databinding.FragmentImprintBinding;
 
-import java.util.Objects;
-
 public class ImprintFragment extends Fragment {
 
     private FragmentImprintBinding binding;
