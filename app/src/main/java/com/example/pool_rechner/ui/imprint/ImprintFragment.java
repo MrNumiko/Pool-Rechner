@@ -15,7 +15,6 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
 import com.example.pool_rechner.R;
 import com.example.pool_rechner.databinding.FragmentImprintBinding;
@@ -26,13 +25,10 @@ public class ImprintFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        ImprintViewModel ImprintViewModel =
-                new ViewModelProvider(this).get(ImprintViewModel.class);
 
         binding = FragmentImprintBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
 
-        return root;
+        return binding.getRoot();
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
@@ -40,13 +36,7 @@ public class ImprintFragment extends Fragment {
 
         // Send email
         binding.imprintEmail.setLinkTextColor(Color.BLUE);
-        binding.imprintEmail.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                sendEmail();
-            }
-
-        });
+        binding.imprintEmail.setOnClickListener(v -> sendEmail());
 
         // Text view to add hyperlink
         TextView linkTextView = requireActivity().findViewById(R.id.imprint_web);
@@ -79,7 +69,7 @@ public class ImprintFragment extends Fragment {
         // Send mail with error handling if no email client available on the device
         try {
             startActivity(Intent.createChooser(emailIntent, "Send mail..."));
-            getActivity().finish();
+            requireActivity().finish();
             Log.i("Finished sending email...", "");
         } catch (android.content.ActivityNotFoundException ex) {
             Toast.makeText(getActivity(),

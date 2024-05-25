@@ -8,7 +8,6 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
 import com.example.pool_rechner.databinding.FragmentCircleBinding;
 
@@ -19,25 +18,16 @@ public class CircleFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        CircleViewModel CircleViewModel =
-                new ViewModelProvider(this).get(CircleViewModel.class);
 
         binding = FragmentCircleBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
 
-        return root;
+        return binding.getRoot();
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.btnCalcCircle.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                performCalculation();
-            }
-
-        });
+        binding.btnCalcCircle.setOnClickListener(v -> performCalculation());
     }
 
     private void performCalculation() {

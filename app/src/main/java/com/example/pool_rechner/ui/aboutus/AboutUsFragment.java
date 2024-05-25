@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
 import com.example.pool_rechner.databinding.FragmentAboutusBinding;
 
@@ -16,13 +15,10 @@ public class AboutUsFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        AboutUsViewModel AboutUsViewModel =
-                new ViewModelProvider(this).get(AboutUsViewModel.class);
 
         binding = FragmentAboutusBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
 
-        return root;
+        return binding.getRoot();
     }
 
     @Override

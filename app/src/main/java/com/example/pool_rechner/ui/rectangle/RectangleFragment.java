@@ -4,17 +4,12 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.pool_rechner.R;
 import com.example.pool_rechner.databinding.FragmentRectangleBinding;
-import com.example.pool_rechner.ui.home.HomeFragment;
 
 import java.text.DecimalFormat;
 
@@ -23,25 +18,16 @@ public class RectangleFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        RectangleViewModel RectangleViewModel =
-                new ViewModelProvider(this).get(RectangleViewModel.class);
 
         binding = FragmentRectangleBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
 
-        return root;
+        return binding.getRoot();
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.btnCalcRectangle.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                performCalculation();
-            }
-
-    });
+        binding.btnCalcRectangle.setOnClickListener(v -> performCalculation());
     }
 
     private void performCalculation() {

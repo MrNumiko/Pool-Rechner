@@ -13,6 +13,7 @@
         android:layout_marginStart="83dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="84dp"
+        android:contentDescription="@string/imprint_company"
         android:src="@drawable/companylogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

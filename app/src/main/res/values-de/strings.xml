@@ -26,8 +26,6 @@
     <string name="width">Breite:</string>
     <string name="length">Länge:</string>
     <string name="radius">Radius:</string>
-    <string name="choice_rectangular_pool_shape">Sie haben sich für eine rechteckige Beckenform entschieden:</string>
-    <string name="choice_spherical_pool_shape">Sie haben sich für eine kugelförmige Beckenform entschieden:</string>
     <string name="wateramount_in_cbm_rectangle">Wassermenge in cbm = Länge * Breite * Höhe</string>
     <string name="wateramount_in_cbm_circle">Wassermenge in cbm = &#960; * r^2 * Höhe</string>
     <string name="rectangular_pool">Rechteckiger Pool</string>
