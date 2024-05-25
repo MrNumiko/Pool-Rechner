@@ -1,5 +1,6 @@
 package com.example.pool_rechner.ui.imprint;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
@@ -15,12 +16,9 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.pool_rechner.MainActivity;
 import com.example.pool_rechner.R;
 import com.example.pool_rechner.databinding.FragmentImprintBinding;
-import com.example.pool_rechner.ui.home.HomeFragment;
 
 public class ImprintFragment extends Fragment {
 
@@ -50,8 +48,6 @@ public class ImprintFragment extends Fragment {
 
         });
 
-
-
         // Text view to add hyperlink
         TextView linkTextView = requireActivity().findViewById(R.id.imprint_web);
 
@@ -62,6 +58,7 @@ public class ImprintFragment extends Fragment {
         linkTextView.setLinkTextColor(Color.BLUE);
     }
 
+    @SuppressLint("IntentReset")
     protected void sendEmail() {
         Log.i("Send email", "");
 
