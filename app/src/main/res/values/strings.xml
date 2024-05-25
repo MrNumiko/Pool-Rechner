@@ -47,6 +47,6 @@
     <string name="imprint_contact">Contact</string>
     <string name="imprint_phone">Phone: +49221 81843</string>
     <string name="imprint_fax">Fax: +49221 81833</string>
-    <string name="imprint_email">Email: support@hmnj.de</string>
+    <string name="imprint_email">Email: <a href="support@hmnj.de">support@hmnj.de</a></string>
     <string name="imprint_web">Web: <a href="https://www.google.de">Google</a></string>
 </resources>

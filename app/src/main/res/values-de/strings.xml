@@ -48,6 +48,6 @@
     <string name="imprint_contact">Kontakt</string>
     <string name="imprint_phone">Telefon: +49221 81843</string>
     <string name="imprint_fax">Fax: +49221 81833</string>
-    <string name="imprint_email">Email: support@hmnj.de</string>
+    <string name="imprint_email">Email: <a href="support@hmnj.de">support@hmnj.de</a></string>
     <string name="imprint_web">Internet: <a href="http://www.hmnj-softwaresolutions.de/e">www.hmnj-softwaresolutions.de/</a></string>
 </resources>
