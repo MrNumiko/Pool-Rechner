@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="328dp"
+        android:text="@string/welcome_to"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_rectangleHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/devider_header"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="0dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_rectangleHeader" />
+
+
+    <TextView
+        android:id="@+id/txt_rectangleHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/calculate_pool_water"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_welcome" />
+
+    <TextView
+        android:id="@+id/txt_poolShape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/choose_your_pool_shape"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devider_header" />
+
+    <Button
+        android:id="@+id/rectangle_poolShape"
+        android:layout_width="175dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/rectangle"
+        android:src="@drawable/rectangle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devider_header" />
+
+    <Button
+        android:id="@+id/circle_poolShape"
+        android:layout_width="94dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="120dp"
+        android:background="@drawable/circle"
+        android:src="@drawable/circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devider_header" />
+
+    <TextView
+        android:id="@+id/txt_poolShapeRectangle"
+        android:layout_width="96dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/rectangle"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_poolShape" />
+
+    <TextView
+        android:id="@+id/txt_poolShapeCircle"
+        android:layout_width="86dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="120dp"
+        android:text="@string/spherical"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circle_poolShape" />
+
+    <View
+        android:id="@+id/devider_footer"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="56dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
