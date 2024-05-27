@@ -48,4 +48,15 @@
     <string name="imprint_fax">Fax: +49221 81833</string>
     <string name="imprint_email">Email: <a href="support@hmnj.de">support@hmnj.de</a></string>
     <string name="imprint_web">Internet: <a href="http://www.hmnj-softwaresolutions.de/e">www.hmnj-softwaresolutions.de/</a></string>
+    <string name="aboutUs_welcome">Willkommen bei der HMNJ Software Solutions GmbH - Ihrem Partner für maßgeschneiderte App-Entwicklungen aus Köln. Unser Unternehmen mag kompakt erscheinen mit einem engagierten Team von 4 Fachleuten, aber es ist unsere Größe, die uns erlaubt, flexibel und zielgerichtet auf die individuellen Bedürfnisse unserer Kunden einzugehen.</string>
+    <string name="aboutUs_philosophy">\nUnsere Philosophie ist einfach: Wir leben und atmen Softwarelösungen. Hier bei HMNJ setzen wir auf Leidenschaft, Hingabe und eine tiefe Verpflichtung zu Innovation und Nachhaltigkeit. Wir glauben fest daran, dass der Schlüssel zu herausragenden digitalen Produkten in der Kombination aus fortschrittlichem technischen Know-how und einem durchdachten Ansatz zur Nachhaltigkeit liegt. Von unserem Sitz im Herzen von Köln aus verfolgen wir diese Ziele mit einem unermüdlichen Engagement für Perfektion.</string>
+    <string name="aboutUs_body">\nIntegration und Vielseitigkeit stehen im Mittelpunkt unserer Arbeit. Mit einem kleinen, aber feinen Team decken wir alle relevanten Bereiche ab - von Geschäftsführung über Vertrieb, Kalkulation, Support bis hin zur Programmierung. Jeder in unserem Team bringt einzigartige Fähigkeiten mit, die es uns ermöglichen, komplexe Projekte aus verschiedenen Perspektiven zu betrachten und Lösungen zu entwickeln, die nicht nur technisch ausgefeilt, sondern auch pragmatisch und kundenorientiert sind.</string>
+    <string name="aboutUs_contextHeader">\nUnsere Geschäftsbereiche umfassen:</string>
+    <string name="aboutUs_context1">\n- Geschäftsführung: Verantwortlich für die Koordination unserer Experten und die strategische Ausrichtung.</string>
+    <string name="aboutUs_context2">- Vertrieb: Entwickelt effiziente Vertriebswege, um unsere Lösungen optimal zu platzieren.</string>
+    <string name="aboutUs_context3">- Kalkulation: Sorgt für transparente und nachvollziehbare Kostenkalkulationen für unsere Kunden.</string>
+    <string name="aboutUs_context4">- Support: Gewährleistet erstklassige Kundenunterstützung durch verschiedene Kanäle, darunter eine Hotline.</string>
+    <string name="aboutUs_context5">- Programmierung: Unser Kernstück, verantwortlich für die Umsetzung innovativer App-Lösungen.</string>
+    <string name="aboutUs_values">\nWir stehen für Innovation, Integrität, Kundenzentrierung und Teamgeist. Diese Werte leiten uns in allem, was wir tun, und ermöglichen es uns, die Erwartungen unserer Kunden nicht nur zu erfüllen, sondern zu übertreffen.</string>
+    <string name="aboutUs_final">\nBei HMNJ Software Solutions GmbH verbinden wir technische Expertise mit kreativer Vision, um die digitale Zukunft aktiv mitzugestalten. Explore our software solutions where ingenuity meets reliability - immer innovativ, immer verlässlich und stets einen Schritt voraus.</string>
 </resources>

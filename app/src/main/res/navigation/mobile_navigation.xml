@@ -47,4 +47,10 @@
         android:name="com.example.pool_rechner.ui.circle.CircleFragment"
         android:label="@string/title_circle"
         tools:layout="@layout/fragment_circle" />
+
+    <fragment
+        android:id="@+id/navigation_test"
+        android:name="com.example.pool_rechner.ui.aboutus.AboutUsFragmentTest"
+        android:label="test"
+        tools:layout="@layout/fragment_scrollaboutus" />
 </navigation>

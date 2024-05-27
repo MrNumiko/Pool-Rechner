@@ -47,4 +47,15 @@
     <string name="imprint_fax">Fax: +49221 81833</string>
     <string name="imprint_email">Email: <a href="support@hmnj.de">support@hmnj.de</a></string>
     <string name="imprint_web">Web: <a href="https://www.google.de">Google</a></string>
+    <string name="aboutUs_welcome">Welcome to HMNJ Software Solutions GmbH - your partner for customized app development from Cologne. Our company may seem compact with a dedicated team of 4 professionals, but it is our size that allows us to respond flexibly and purposefully to the individual needs of our clients.</string>
+    <string name="aboutUs_philosophy">\nOur philosophy is simple: We live and breathe software solutions. Here at HMNJ, we rely on passion, dedication and a deep commitment to innovation and sustainability. We firmly believe that the key to outstanding digital products lies in the combination of advanced technical know-how and a thoughtful approach to sustainability. From our headquarters in the heart of Cologne, we pursue these goals with a tireless commitment to perfection.</string>
+    <string name="aboutUs_body">\nIntegration and versatility are at the heart of our work. With a small but fine team we cover all relevant areas - from management to sales, costing, support to programming. Everyone in our team brings unique skills that allow us to look at complex projects from different perspectives and develop solutions that are not only technically sophisticated, but also pragmatic and customer oriented.</string>
+    <string name="aboutUs_contextHeader">\nOur business areas include:</string>
+    <string name="aboutUs_context1">\n- Management: Responsible for the coordination of our experts and the strategic orientation.</string>
+    <string name="aboutUs_context2">- Sales: Develops efficient sales channels to place our solutions optimally.</string>
+    <string name="aboutUs_context3">- Calculation: Provides transparent and comprehensible cost calculations for our customers.</string>
+    <string name="aboutUs_context4">- Support: Provides first-class customer support through multiple channels, including a hotline.</string>
+    <string name="aboutUs_context5">- Programming: Our core, responsible for the implementation of innovative app solutions.</string>
+    <string name="aboutUs_values">\nWe stand for innovation, integrity, customer focus and team spirit. These values guide us in everything we do and enable us to not only meet but exceed the expectations of our customers.</string>
+    <string name="aboutUs_final">\nAt HMNJ Software Solutions GmbH, we combine technical expertise with creative vision to actively shape the digital future. Explore our software solutions where ingenuity meets reliability - always innovative, always reliable and always one step ahead.</string>
 </resources>
