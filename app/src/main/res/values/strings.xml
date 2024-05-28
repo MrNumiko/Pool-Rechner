@@ -6,7 +6,6 @@
     <string name="title_imprint">Imprint</string>
     <string name="title_rectangle">Rectangle</string>
     <string name="title_circle">Circle</string>
-    <string name="help_body">This app calculates the required amount of water depending on the pool shape and the dimensions entered. The result is displayed in cubic meters.</string>
     <string name="enter_dimensions">Enter dimensions</string>
     <string name="length_in_meters">Length in meters</string>
     <string name="radius_in_meters">Radius in meters</string>
@@ -58,4 +57,15 @@
     <string name="aboutUs_context5">- Programming: Our core, responsible for the implementation of innovative app solutions.</string>
     <string name="aboutUs_values">\nWe stand for innovation, integrity, customer focus and team spirit. These values guide us in everything we do and enable us to not only meet but exceed the expectations of our customers.</string>
     <string name="aboutUs_final">\nAt HMNJ Software Solutions GmbH, we combine technical expertise with creative vision to actively shape the digital future. Explore our software solutions where ingenuity meets reliability - always innovative, always reliable and always one step ahead.</string>
+    <string name="help_end">Our goal is to answer all inquiries within one hour.</string>
+    <string name="help_email_address">- E-mail address: <a href="support@hmnj.de">support@hmnj.de</a></string>
+    <string name="help_email_body">Send us an e-mail with your request at any time to:</string>
+    <string name="help_email_headline">E-mail</string>
+    <string name="help_phone_addon">Outside these times, you are welcome to leave a message on our mailbox and we will call you back as soon as possible.</string>
+    <string name="help_phone_number">- Telephone number: +49221 81843</string>
+    <string name="help_phone_body">Our customer service is available from Monday to Friday, 8:00 a.m. to 4:00 p.m., at the following telephone number:</string>
+    <string name="help_phone_headline">Telephone</string>
+    <string name="help_contact">#Contact our support</string>
+    <string name="help_body">We are here to help you! If you have any questions, encounter any problems or need help, please do not hesitate to contact us. Our customer service team is happy to assist you with advice and assistance.</string>
+    <string name="help_headline">Help &amp; Support</string>
 </resources>

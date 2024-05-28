@@ -7,7 +7,6 @@
     <string name="title_imprint">Impressum</string>
     <string name="title_rectangle">Rechteck</string>
     <string name="title_circle">Kreis</string>
-    <string name="help_body">Diese App berechnet die benötigte Wassermenge abhängig von der Beckenform und den eingegebenen Maßen. Das Ergebnis wird in Kubikmetern angezeigt.</string>
     <string name="enter_dimensions">Geben Sie die Abmessungen ein</string>
     <string name="length_in_meters">Länge in Metern</string>
     <string name="radius_in_meters">Radius in Metern</string>
@@ -59,4 +58,15 @@
     <string name="aboutUs_context5">- Programmierung: Unser Kernstück, verantwortlich für die Umsetzung innovativer App-Lösungen.</string>
     <string name="aboutUs_values">\nWir stehen für Innovation, Integrität, Kundenzentrierung und Teamgeist. Diese Werte leiten uns in allem, was wir tun, und ermöglichen es uns, die Erwartungen unserer Kunden nicht nur zu erfüllen, sondern zu übertreffen.</string>
     <string name="aboutUs_final">\nBei HMNJ Software Solutions GmbH verbinden wir technische Expertise mit kreativer Vision, um die digitale Zukunft aktiv mitzugestalten. Entdecken Sie unsere Softwarelösungen, bei denen Kreativität auf Zuverlässigkeit trifft. Immer innovativ, immer verlässlich und stets einen Schritt voraus.</string>
+    <string name="help_end">Unser Ziel ist es, alle Anfragen innerhalb von einer Stunde zu beantworten.</string>
+    <string name="help_email_address">- E-Mail-Adresse: <a href="support@hmnj.de">support@hmnj.de</a></string>
+    <string name="help_email_body">Senden Sie uns jederzeit eine E-Mail mit Ihrem Anliegen an:</string>
+    <string name="help_email_headline">E-Mail</string>
+    <string name="help_phone_addon">Außerhalb dieser Zeiten können Sie gerne eine Nachricht auf unserer Mailbox hinterlassen, und wir rufen Sie so schnell wie möglich zurück.</string>
+    <string name="help_phone_number">- Telefonnummer: +49221 81843</string>
+    <string name="help_phone_body">Unser Kundendienst ist von Montag bis Freitag, 8:00 bis 16:00 Uhr, unter der folgenden Telefonnummer für Sie erreichbar:</string>
+    <string name="help_phone_headline">Telefon</string>
+    <string name="help_contact">#Kontaktieren Sie unseren Support</string>
+    <string name="help_body">Wir sind hier, um Ihnen zu helfen! Falls Sie Fragen haben, auf Probleme stoßen oder Hilfe benötigen, zögern Sie nicht, uns zu kontaktieren. Unser Kundenservice-Team steht Ihnen gerne mit Rat und Tat zur Seite.</string>
+    <string name="help_headline">Hilfe &amp; Support</string>
 </resources>
