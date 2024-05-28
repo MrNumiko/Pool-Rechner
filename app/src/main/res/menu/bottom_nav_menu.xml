@@ -21,9 +21,4 @@
         android:icon="@drawable/finger_print_icon"
         android:title="@string/title_imprint" />
 
-    <item
-        android:id="@+id/navigation_test"
-        android:icon="@drawable/finger_print_icon"
-        android:title="test" />
-
 </menu>
