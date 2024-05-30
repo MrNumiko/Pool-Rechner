@@ -2,6 +2,7 @@ package com.example.pool_rechner.ui.circle;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
@@ -26,8 +27,17 @@ public class CircleFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        setHasOptionsMenu(true);
 
         binding.btnCalcCircle.setOnClickListener(v -> performCalculation());
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            requireActivity().getOnBackPressedDispatcher().onBackPressed();
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     private void performCalculation() {
