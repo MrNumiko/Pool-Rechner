@@ -6,172 +6,188 @@
     android:layout_height="match_parent"
     tools:context=".ui.rectangle.RectangleFragment">
 
-    <View
-        android:id="@+id/devider_header"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:background="@android:color/darker_gray"
+    <ScrollView
+        android:layout_width="725dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_rectangleHeader" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/txt_rectangleHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/dimension_input_for_rectangular_pool"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <View
-        android:id="@+id/devider_footer"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="56dp"
-        android:background="@android:color/darker_gray"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageViewRectangle"
-        android:layout_width="175dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="276dp"
-        android:layout_marginTop="8dp"
-        android:contentDescription="@string/rectangular_pool"
-        android:src="@drawable/rectangle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/devider_header" />
+            <TextView
+                android:id="@+id/txt_rectangleHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/dimension_input_for_rectangular_pool"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/txt_sizeRectangle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/result_pool_water"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/btn_calcRectangle"
-        app:layout_constraintTop_toBottomOf="@+id/nb_widthRectangle" />
+            <View
+                android:id="@+id/devider_header"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@android:color/darker_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_rectangleHeader" />
 
-    <EditText
-        android:id="@+id/nb_widthRectangle"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="4dp"
-        android:autofillHints="Width"
-        android:hint="@string/width_in_meters"
-        android:inputType="numberDecimal"
-        app:layout_constraintStart_toEndOf="@+id/nb_lengthRectangle"
-        app:layout_constraintTop_toBottomOf="@+id/txt_widthRectangle" />
+            <ImageView
+                android:id="@+id/imageViewRectangle"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="276dp"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/rectangular_pool"
+                android:src="@drawable/rectangle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/devider_header" />
 
-    <TextView
-        android:id="@+id/txt_lengthRectangle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/length"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_dimensionInputRectangle" />
+            <TextView
+                android:id="@+id/txt_formular"
+                android:layout_width="421dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="152dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/wateramount_in_cbm_rectangle"
+                android:textAlignment="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewRectangle" />
 
-    <TextView
-        android:id="@+id/txt_widthRectangle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="196dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/width"
-        app:layout_constraintStart_toEndOf="@+id/txt_lengthRectangle"
-        app:layout_constraintTop_toBottomOf="@+id/txt_dimensionInputRectangle" />
+            <TextView
+                android:id="@+id/txt_dimensionInputRectangle"
+                android:layout_width="396dp"
+                android:layout_height="21dp"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/enter_dimensions"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_formular" />
 
-    <TextView
-        android:id="@+id/txt_dimensionInputRectangle"
-        android:layout_width="396dp"
-        android:layout_height="21dp"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="12dp"
-        android:text="@string/enter_dimensions"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_formular" />
+            <TextView
+                android:id="@+id/txt_lengthRectangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/length"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_dimensionInputRectangle" />
 
-    <TextView
-        android:id="@+id/txt_heightRectangle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="216dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/height"
-        app:layout_constraintStart_toEndOf="@+id/txt_widthRectangle"
-        app:layout_constraintTop_toBottomOf="@+id/txt_dimensionInputRectangle" />
+            <EditText
+                android:id="@+id/nb_lengthRectangle"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="Length"
+                android:hint="@string/length_in_meters"
+                android:inputType="numberDecimal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_lengthRectangle" />
 
-    <EditText
-        android:id="@+id/nb_lengthRectangle"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="4dp"
-        android:autofillHints="Length"
-        android:hint="@string/length_in_meters"
-        android:inputType="numberDecimal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_lengthRectangle" />
+            <TextView
+                android:id="@+id/txt_widthRectangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/width"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nb_lengthRectangle" />
 
-    <Button
-        android:id="@+id/btn_calcRectangle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/calculate"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nb_heightRectangle" />
+            <EditText
+                android:id="@+id/nb_widthRectangle"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:autofillHints="Width"
+                android:hint="@string/width_in_meters"
+                android:inputType="numberDecimal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_widthRectangle" />
 
-    <EditText
-        android:id="@+id/nb_heightRectangle"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="12dp"
-        android:autofillHints="Height"
-        android:hint="@string/height_in_meters"
-        android:inputType="numberDecimal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nb_widthRectangle"
-        app:layout_constraintTop_toBottomOf="@+id/txt_heightRectangle" />
+            <TextView
+                android:id="@+id/txt_heightRectangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/height"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nb_widthRectangle" />
 
-    <TextView
-        android:id="@+id/txt_formular"
-        android:layout_width="421dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
-        android:layout_marginTop="12dp"
-        android:text="@string/wateramount_in_cbm_rectangle"
-        android:textAlignment="center"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewRectangle" />
+            <EditText
+                android:id="@+id/nb_heightRectangle"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="12dp"
+                android:autofillHints="Height"
+                android:hint="@string/height_in_meters"
+                android:inputType="numberDecimal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_heightRectangle" />
 
-    <TextView
-        android:id="@+id/input_sizeRectangle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="24dp"
-        android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/txt_sizeRectangle"
-        app:layout_constraintTop_toBottomOf="@+id/nb_heightRectangle" />
+            <Button
+                android:id="@+id/btn_calcRectangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/calculate"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nb_heightRectangle" />
 
+            <TextView
+                android:id="@+id/txt_sizeRectangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/result_pool_water"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_calcRectangle" />
+
+            <TextView
+                android:id="@+id/input_sizeRectangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/txt_sizeRectangle"
+                app:layout_constraintTop_toBottomOf="@+id/txt_sizeRectangle" />
+
+            <View
+                android:id="@+id/devider_footer"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="56dp"
+                android:background="@android:color/darker_gray"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
