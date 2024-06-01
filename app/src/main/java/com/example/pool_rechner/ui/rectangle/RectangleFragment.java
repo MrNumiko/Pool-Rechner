@@ -52,6 +52,11 @@ public class RectangleFragment extends Fragment {
             return; // Exit the method to prevent calculations with empty inputs
         }
 
+        if (!isNumeric(in_length) || !isNumeric(in_width) || !isNumeric(in_height)) {
+            Toast.makeText(getActivity(), "Please only enter numbers", Toast.LENGTH_SHORT).show();
+            return; // Exit the method to prevent calculations with non numeric inputs
+        }
+
         // Convert Strings to doubles
         double length = Double.parseDouble(in_length);
         double width = Double.parseDouble(in_width);
@@ -61,6 +66,15 @@ public class RectangleFragment extends Fragment {
         double result = length * width * height;
         DecimalFormat df = new DecimalFormat("#.##");
         binding.inputSizeRectangle.setText(df.format(result));
+    }
+
+    private static boolean isNumeric(String str) {
+        try {
+            Double.parseDouble(str);
+            return true;
+        } catch(NumberFormatException e){
+            return false;
+        }
     }
 
     @Override

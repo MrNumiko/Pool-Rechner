@@ -51,6 +51,11 @@ public class CircleFragment extends Fragment {
             return; // Exit the method to prevent calculations with empty inputs
         }
 
+        if (!isNumeric(in_radius) || !isNumeric(in_height)) {
+            Toast.makeText(getActivity(), "Please only enter numbers", Toast.LENGTH_SHORT).show();
+            return; // Exit the method to prevent calculations with non numeric inputs
+        }
+
         // Convert Strings to doubles
         double radius = Double.parseDouble(in_radius);
         double height = Double.parseDouble(in_height);
@@ -59,6 +64,15 @@ public class CircleFragment extends Fragment {
         double result = Math.PI * Math.pow(radius, 2) * height;
         DecimalFormat df = new DecimalFormat("#.##");
         binding.inputSizeCircle.setText(df.format(result));
+    }
+
+    private static boolean isNumeric(String str) {
+        try {
+            Double.parseDouble(str);
+            return true;
+        } catch(NumberFormatException e){
+            return false;
+        }
     }
 
     @Override
