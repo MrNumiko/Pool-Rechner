@@ -66,70 +66,53 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/devider_header" />
 
+            <TextView
+                android:id="@+id/txt_poolShapeRectangle"
+                android:layout_width="96dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/rectangle"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/txt_poolShapeCircle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/devider_header" />
+
             <Button
                 android:id="@+id/rectangle_poolShape"
                 android:layout_width="175dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="124dp"
-                android:layout_marginBottom="127dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/rectangle"
                 android:src="@drawable/rectangle"
-                app:layout_constraintBottom_toTopOf="@+id/circle_poolShape"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txt_poolShape" />
+                app:layout_constraintTop_toBottomOf="@+id/txt_poolShapeRectangle" />
 
             <TextView
-                android:id="@+id/txt_poolShapeRectangle"
-                android:layout_width="96dp"
-                android:layout_height="26dp"
-                android:layout_marginStart="28dp"
-                android:layout_marginTop="216dp"
-                android:layout_marginEnd="96dp"
-                android:layout_marginBottom="223dp"
-                android:text="@string/rectangle"
+                android:id="@+id/txt_poolShapeCircle"
+                android:layout_width="86dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/spherical"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="@+id/txt_poolShapeCircle"
+                app:layout_constraintBottom_toTopOf="@+id/devider_footer"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/rectangle_poolShape"
-                app:layout_constraintTop_toBottomOf="@+id/devider_header" />
+                app:layout_constraintStart_toEndOf="@+id/rectangle_poolShape" />
 
             <Button
                 android:id="@+id/circle_poolShape"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginBottom="52dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/circle"
                 android:src="@drawable/circle"
                 app:layout_constraintBottom_toTopOf="@+id/devider_footer"
                 app:layout_constraintStart_toStartOf="parent" />
 
-            <TextView
-                android:id="@+id/txt_poolShapeCircle"
-                android:layout_width="86dp"
-                android:layout_height="28dp"
-                android:layout_marginStart="52dp"
-                android:layout_marginEnd="107dp"
-                android:layout_marginBottom="113dp"
-                android:text="@string/spherical"
-                android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="@+id/devider_footer"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/circle_poolShape" />
 
-            <View
-                android:id="@+id/devider_footer"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginStart="0dp"
-                android:layout_marginEnd="0dp"
-                android:layout_marginBottom="56dp"
-                android:background="@android:color/darker_gray"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent" />
 
         </LinearLayout>
     </ScrollView>

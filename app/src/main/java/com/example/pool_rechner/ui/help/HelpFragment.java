@@ -34,18 +34,9 @@ public class HelpFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         // Send email
-        /*
+
         binding.txtHelpEmailAddress.setLinkTextColor(Color.BLUE);
         binding.txtHelpEmailAddress.setOnClickListener(v -> sendEmail());
-
-        // Text view to add hyperlink
-        TextView linkTextView = requireActivity().findViewById(R.id.imprint_web);
-
-        // method to redirect to provided link
-        linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
-
-        // method to change color of link
-        linkTextView.setLinkTextColor(Color.BLUE);*/
     }
 
     @SuppressLint("IntentReset")

@@ -60,12 +60,12 @@
     <string name="help_end">Our goal is to answer all inquiries within one hour.</string>
     <string name="help_email_address">- E-mail address: <a href="support@hmnj.de">support@hmnj.de</a></string>
     <string name="help_email_body">Send us an e-mail with your request at any time to:</string>
-    <string name="help_email_headline">E-mail</string>
+    <string name="help_email_headline">\nE-mail</string>
     <string name="help_phone_addon">Outside these times, you are welcome to leave a message on our mailbox and we will call you back as soon as possible.</string>
     <string name="help_phone_number">- Telephone number: +49221 81843</string>
     <string name="help_phone_body">Our customer service is available from Monday to Friday, 8:00 a.m. to 4:00 p.m., at the following telephone number:</string>
     <string name="help_phone_headline">Telephone</string>
-    <string name="help_contact">#Contact our support</string>
+    <string name="help_contact">\n#Contact our support</string>
     <string name="help_body">We are here to help you! If you have any questions, encounter any problems or need help, please do not hesitate to contact us. Our customer service team is happy to assist you with advice and assistance.</string>
     <string name="help_headline">Help &amp; Support</string>
 </resources>
