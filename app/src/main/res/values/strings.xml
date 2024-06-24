@@ -14,7 +14,7 @@
     <string name="function_of_the_app">Function of the App:</string>
     <string name="choose_your_pool_shape">Choose your pool shape</string>
     <string name="welcome_to">Welcome to</string>
-    <string name="calculate_pool_water">Calculate pool water</string>
+    <string name="calculate_pool_water">PoolPlanner</string>
     <string name="rectangle">Rectangle</string>
     <string name="spherical">Spherical</string>
     <string name="dimension_input_for_rectangular_pool">Dimension input for rectangular pool</string>

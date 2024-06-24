@@ -15,7 +15,7 @@
     <string name="function_of_the_app">Funktion der App:</string>
     <string name="choose_your_pool_shape">Wählen Sie Ihre Poolform</string>
     <string name="welcome_to">Willkommen zu</string>
-    <string name="calculate_pool_water">Poolwasser berechnen</string>
+    <string name="calculate_pool_water">PoolPlanner</string>
     <string name="rectangle">Rechteck</string>
     <string name="spherical">Kreis</string>
     <string name="dimension_input_for_rectangular_pool">Abmessungseingabe für rechteckiges Becken</string>
